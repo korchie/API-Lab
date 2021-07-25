@@ -32,7 +32,7 @@ fetch("https://www.reddit.com/r/aww/.json")
 
         function addLink(url){
             let link = document.createElement("a");
-            var linkText = document.createTextNode("link");
+            var linkText = document.createTextNode("Link to Reddit Post");
             link.appendChild(linkText);
             // link.title = "my link text";
             link.href = url;
@@ -41,6 +41,8 @@ fetch("https://www.reddit.com/r/aww/.json")
         addLink(url);
     }
 })
+
+
 
 .catch(function(error) {
     console.log("oh no!!");
