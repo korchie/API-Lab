@@ -1,7 +1,7 @@
 body {
     background: rgb(2,0,36);
     background: linear-gradient(76deg, rgba(2,0,36,1) 0%, rgba(136,29,185,1) 0%, rgba(0,185,161,1) 100%);
-    font-family: 'Cute Font', cursive;
+    font-family: 'Bubblegum Sans', comic sans;
     text-align: center;
     display: flex;
     flex-direction: column;
