@@ -10,26 +10,40 @@ body {
 
 h1 {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     padding: 0px;
-    text-shadow: 1px 1px 1px grey,
-             2px 2px 1px black;
+    text-shadow: 2px 2px 2px grey,
+             3px 3px 2px black;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 25px;
     border: 3px solid black;
     border-radius: 20px;
     background: rgba(138, 37, 138, 0.5);
-    width: 35rem;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 img {
     height: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(44, 44, 44, 0.5);
 }
 
 a {
-    font-size: 25px;
+    font-size: 16px;
     margin-bottom: 100px;
+    margin-top: 10px;
+    color: white;
+
 }
 
+a:hover {
+    color: rgb(44, 43, 43);
+}
